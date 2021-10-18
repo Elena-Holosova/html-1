@@ -1,0 +1,33 @@
+.target {
+    background: cadetblue;
+    color: lightpink;
+    text-align: justify;
+}
+img{
+    border: lightpink 10px solid;
+    width: 1200px;
+}
+.point {
+    font-size: 45px;
+    background: darkseagreen;
+    border: brown 10px dot-dot-dash;
+}
+
+.down {
+    background: olivedrab;
+    border: aqua 10px dashed;
+
+}
+h1, h2
+{
+    text-align: center;
+}
+
+body{
+    background: azure;
+}
+
+
+p, ul{
+    font-size: 30px;
+}
