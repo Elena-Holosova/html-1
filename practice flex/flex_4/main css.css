@@ -1,0 +1,68 @@
+.header {
+    background: grey;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.main{
+    background: grey;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+
+.main_left{
+    width: 70%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.right{
+    display: flex;
+    width: 30%;
+    margin-bottom: 10px;
+}
+.right_block{
+    height:100%;
+    width:100%;
+    margin-right: 10px;
+}
+
+.left_block{
+    height: 200px;
+    width: 33.33%;
+}
+.header_block{
+    height: 200px;
+    margin: 10px;
+    width: 100%;
+}
+
+.a{
+    background: coral;
+}
+.b{
+    background: #3cff2e;
+}
+.c{
+    background: deeppink;
+}
+.d{
+    background: gold;
+}
+.e{
+    background: midnightblue;
+}
+.f{
+    background: lightpink;
+}
+.g{
+    background: chocolate;
+}
+.h{
+    background: khaki;
+}
