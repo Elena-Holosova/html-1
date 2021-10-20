@@ -1,0 +1,56 @@
+.header {
+    background: grey;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.main{
+    background: grey;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.down{
+    background: grey;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+}
+.h_block{
+    width: 50%;
+    height: 700px;
+    margin: 10px;
+}
+.main_block{
+    width: 100%;
+    height: 500px;
+    margin: 10px;
+
+}
+.down_block{
+    width: 33.33%;
+    height: 500px;
+    margin: 10px;
+}
+
+.a{
+    background: chocolate;
+}
+.b{
+    background: midnightblue;
+}
+.c{
+    background: deeppink;
+}
+.d{
+    background: dodgerblue;
+}
+.e{
+    background: darkseagreen;
+}
+.f{
+    background: aqua;
+}
