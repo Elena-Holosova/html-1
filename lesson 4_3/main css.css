@@ -1,0 +1,43 @@
+.main{
+    background: grey;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    column-gap: 10px;
+}
+
+.w_block_size{
+    height:500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.widgets_block{
+    width: 100%;
+    margin-top: 10px;
+
+}
+.big_widgets_block{
+    width: 33.33%;
+}
+.contact_block{
+    width: 100%;
+    height: 1000px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.a{
+    background: blueviolet;
+}
+.b{
+    background: darkseagreen;
+}
+.c{
+    background: dodgerblue;
+}
+.d{
+    background: goldenrod;
+}
+.e{
+    background: greenyellow;
+}

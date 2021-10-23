@@ -1,0 +1,44 @@
+.all{
+    background: grey;
+    width: 1600px;
+    display: flex;
+    justify-content: space-around;
+}
+.header {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.wid{
+    width: 100%;
+}
+.height-h-f{
+    height:200px;
+}
+
+.nav_block{
+    height:150px;
+}
+.left-right{
+    height: 800px;
+}
+.main_left{
+    width: 70%;
+}
+.aside_right{
+    width: 30%;
+}
+.a{
+    background: lightseagreen;
+}
+.b{
+    background: gold;
+}
+.c{
+    background: deeppink;
+}
+.d{
+    background: darkslateblue;
+}
+.e{
+    background: midnightblue;
+}

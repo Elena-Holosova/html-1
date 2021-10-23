@@ -1,0 +1,41 @@
+.main{
+    background: grey;
+    width: 1600px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    column-gap: 10px;
+}
+
+.size{
+    width: 300px;
+    height: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.box_a{
+    height: 200px;
+    flex-grow: 3;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.a{
+    background: coral;
+}
+
+.b{
+    background: olivedrab;
+    flex-grow: 3;
+}
+.c{
+    background: brown;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.wrap_2{
+    height: 400px;
+}
