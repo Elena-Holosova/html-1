@@ -1,0 +1,98 @@
+.block1{
+    background: midnightblue;
+    width: 1600px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-around;
+}
+.blocks2_7{
+    background: midnightblue;
+    width: 1600px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-around;
+}
+.block5_6{
+
+}
+.block2{
+    flex-direction: column;
+    width: 15%;
+}
+.block4{
+    background: midnightblue;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-around;
+}
+.column3_4{
+    background: midnightblue;
+    width: 80%;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-self: center;
+}
+.block5_6{
+    background: midnightblue;
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-around;
+}
+.block5{
+    flex-wrap: wrap;
+    display: flex;
+    width: 75%;
+}
+.block6{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.shape5{
+    width: 450px;
+    height: 250px;
+    margin: 10px;
+}
+.shape6{
+    width: 270px;
+    height:150px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.size{
+    height: 60px;
+    width: 250px;
+    margin: 20px;
+}
+
+.push1{
+    margin-left: 10px;
+}
+.push2{
+    margin-right: auto;
+}
+
+.a{
+    background: dodgerblue;
+}
+.b{
+    background: dodgerblue;
+    height: 400px;
+
+}
+.c{
+    background: dodgerblue;
+    height: 300px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.margins{
+    margin-left: 10px;
+}
+
