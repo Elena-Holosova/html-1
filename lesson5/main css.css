@@ -1,3 +1,8 @@
+:root{
+    --blue: #0b2e41;
+    --aqua: #00c7ea;
+    --light: #cad7e0;
+}
 *{
     margin: 0;
     padding: 0;
@@ -24,11 +29,11 @@ height: 3000px;
 .sm-icons__link{
     width: 25px;
     height: 5px;
-    background: midnightblue;
+    background-color: var(--blue);
 }
 .header__top{
     padding: 10px 0 20px;
-    background: lightblue;
+    background-color: var(--light);
 }
 .header__top_grid{
     display: flex;
@@ -39,7 +44,7 @@ height: 3000px;
     height: 50px;
     width: 150px;
     border-radius: 5px;
-    background: midnightblue;
+    background-color: var(--blue);
 }
 .nav__item{
     display: inline-block;
@@ -69,11 +74,11 @@ height: 3000px;
     text-align: center;
 }
 .header{
-    background: aqua;
+    background-color: var(--aqua);
 }
 .header__main button{
     margin-top: 25px;
-    background: midnightblue;
+    background-color: var(--blue);
     width: 300px;
     color: white;
     border-radius: 20px;
@@ -86,10 +91,10 @@ height: 3000px;
 }
 .products{
     padding: 100px;
-    background: lightblue;
+    background-color: var(--light);
 }
 .products_grid{
-    border: 1px solid aqua;
+    border: 1px solid var(--aqua);
     border-radius: 20px;
     padding: 20px;
 
@@ -108,11 +113,11 @@ height: 3000px;
 }
 .products__item_image{
     height: 200px;
-    background-color: midnightblue;
+    background-color: var(--blue);
     border-radius: 10px;
 }
 .about{
-    background-color: midnightblue;
+    background-color: var(--blue);
     padding: 50px 0;
 
 }
@@ -137,13 +142,13 @@ height: 3000px;
 
 }
 .about_card:hover{
-    border-color: aqua;
+    border-color: var(--aqua)
 }
 .about__photo > div{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: lightblue;
+    background-color: var(--light);
 }
 .about__name{
     font-size: 22px;
