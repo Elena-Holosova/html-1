@@ -16,7 +16,7 @@ body{
 height: 3000px;
 }
 .sm-icons{
-    background: aqua;
+    background-color: var(--aqua);
     height:40px;
     display: flex;
     align-items: center;
@@ -32,6 +32,7 @@ height: 3000px;
     background-color: var(--blue);
 }
 .header__top{
+    position: relative;
     padding: 10px 0 20px;
     background-color: var(--light);
 }
@@ -141,6 +142,7 @@ height: 3000px;
     cursor: pointer;
 
 }
+
 .about_card:hover{
     border-color: var(--aqua)
 }
@@ -153,6 +155,40 @@ height: 3000px;
 .about__name{
     font-size: 22px;
     font-weight: 700;
+}
+.nav__button{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: var(--aqua);
+    right: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav__button span{
+    display: inline-block;
+    width: 80%;
+    height: 7px;
+    background-color: white;
+    position: relative;
+
+}
+.nav__button span::before, .nav__button span::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+
+}
+.nav__button span::before{
+    top:-12px;
+}
+
+.nav__button span::after{
+    bottom: -12px;
 }
 
 
