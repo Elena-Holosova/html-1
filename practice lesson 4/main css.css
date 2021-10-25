@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.sm-icons{
+    background: aqua;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px;
+    column-gap: 5px;
+    list-style: none;
+}
+
+.sm-icons__link{
+    width: 25px;
+    height: 5px;
+    background: midnightblue;
+}
+.header__top{
+    padding: 10px 0 20px;
+    background: lightblue;
+}
+.header__top_grid{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.header_logo{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background: midnightblue;
+}
+.nav__item{
+    display: inline-block;
+}
+.nav__item a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: color .5s;
+}
+
+.nav__item a:hover{
+    color: deeppink;
+}
+
+.header__main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    padding: 100px 0;
+}
+.header__text{
+    width: 80%;
+    line-height: 25px;
+    text-align: center;
+}
+.header{
+    background: aqua;
+}
+.header__main button{
+    margin-top: 25px;
+    background: midnightblue;
+    width: 300px;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+.products_title{
+    align-items: center;
+}
+.products{
+    padding: 100px;
+    background: lightblue;
+}
+.products_grid{
+    border: 1px solid aqua;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+.products__list{
+    display: flex;
+    column-gap: 100px;
+}
+.products__item{
+    flex-grow: 1;
+
+}
+.products__item p{
+    text-align: center;
+    margin-top: 15px;
+}
+.products__item_image{
+    height: 200px;
+    background-color: midnightblue;
+    border-radius: 10px;
+}
+.about{
+    background-color: midnightblue;
+    padding: 50px 0;
+
+}
+.about__grid{
+    display: flex;
+    justify-content: space-between;
+}
+.about_card{
+    width: 30%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: white;
+}
+.about__photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightblue;
+}
+.about__name{
+    font-size: 22px;
+    font-weight: 700;
+}
