@@ -152,16 +152,21 @@ height: 5000px;
     font-weight: 700;
 }
 
-.blocks__item{
+.blocks__item {
     border: 1px solid aqua;
     border-radius: 20px;
     padding: 20px;
-    flex-grow: 1;
-
+    width: 250px;
+    margin-bottom: 20px;
+}
+.blocks__list{
+    justify-content: center;
+    align-items: center;
 }
 
 .blocks{
     flex-wrap: wrap;
+    justify-content: center;
 }
 .blocks_title{
     text-align: center;
@@ -176,6 +181,7 @@ height: 5000px;
 }
 .blocks__list{
     column-gap: 20px;
+    flex-wrap: wrap;
 }
 
 .down_b_2{
