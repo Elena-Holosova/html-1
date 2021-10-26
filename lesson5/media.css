@@ -20,4 +20,43 @@
     .nav{
         display: none;
     }
+    .blocks{
+        padding: 10px;
+    }
+    .blocks__list{
+        flex-direction: column;
+    }
+    .footer_1{
+        padding: 10px;
+    }
+    .foot{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .left{
+        height: 40%;
+    }
+    .left button{
+        width: 70%;
+        height: 70%;
+    }
+    .left p {
+        display: none;
+    }
+    .right{
+        height: 40%;
+    }
+    .right button{
+        width: 70%;
+        height: 70%;
+    }
+    .right p {
+        display: none;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footer span{
+        width: 40%;
+    }
 }
