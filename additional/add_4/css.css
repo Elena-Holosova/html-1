@@ -1,0 +1,122 @@
+.wrapper, .header, .main{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    background-color: #C4C4C4;
+    justify-content: center;
+    align-items: center;
+}
+.header_1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__b_1{
+    width: 15%;
+    height: 50px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+.header__b_2{
+    width: 100%;
+    height: 50px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+.header_3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.header__b_3{
+    width: 100%;
+    height: 300px;
+    background-color: greenyellow;
+    margin: 10px;
+}
+
+.main_4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main__b_4{
+    width: 580px;
+    height: 200px;
+    background-color: lightseagreen;
+    margin: 10px;
+}
+
+.main_5{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main__b_5{
+    width: 100%;
+    height: 150px;
+    background-color: greenyellow;
+    margin: 10px;
+}
+
+.main_5_ex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex_5_b{
+    width: 15%;
+    height: 50px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+.main_6{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main__b_6{
+    width: 100%;
+    height: 150px;
+    background-color: greenyellow;
+    margin: 10px;
+}
+.main__b_6_ex{
+    width: 100%;
+    height: 300px;
+    background-color: greenyellow;
+    margin: 10px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.main__block8{
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+.main__block9{
+    width: 20%;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
