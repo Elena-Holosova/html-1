@@ -1,0 +1,69 @@
+@media screen and (max-width:400px){
+    .first-screen-left h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .f_s:before{
+        content: "";
+        display: block;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 50px;
+        width: 227px;
+        height: 7px;
+        background-color: #EDEFF3;
+    }
+
+    .f_s:after{
+        content: "Aufgrund der kompakten Bauart werden platzsparende luftkondensierte Kompressionskältemaschinen (umgangsspr. „Kaltwassersätze“) vielseitig zur Prozesskühlung und Gebäudeklimatisierung eingesetzt.";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.004em;
+        color: #020303;
+
+    }
+    .mob-sec{
+        margin-top: 100px;
+    }
+
+    .left img{
+        max-width: 400px;
+        margin: 0;
+    }
+
+    .blocks{
+        flex-direction: column;
+    }
+    .rect{
+        max-width: 400px;
+    }
+    .rect_text-1, .rect_text-2{
+     max-width: 400px;
+    }
+    .extra{
+        margin-left: 0;
+    }
+    .left-main, .right-main{
+        margin-top: 700px;
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+    }
+    .right-main img{
+        margin-top: 0;
+    }
+
+    .left-main p{
+        max-width: 400px;
+    }
+    .left-main h2{
+        font-size: 18px;
+    }
+    .ex{
+        display: flex;
+        flex-direction: column;
+    }
+}
