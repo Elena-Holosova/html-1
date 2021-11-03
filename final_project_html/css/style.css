@@ -8,12 +8,21 @@
 .container{
     max-width: 1500px;
 }
+.extra{
+    display: flex;
+}
+.dropdown-menu{
+    color: black;
+}
 .nav-item{
     margin-top: -8px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+}
+.dropdown-item{
+
 }
 .left{
     width: 50%;
@@ -30,7 +39,7 @@
     color: #FFFFFF;
     margin-left: 7px;
 }
-.left a{
+.nav-link, .city{
     text-decoration: underline;
     color: #FFFFFF;
 }
@@ -39,6 +48,7 @@
     height: 20px;
 
 }
+
 .right{
     width: 50%;
     margin-top: 10px;
@@ -465,7 +475,7 @@
 
 .main-body-buttons{
     margin-top: 70px;
-    margin-left: 110px;
+
     display: flex;
 }
 
@@ -520,7 +530,6 @@
     height: 2px;
     margin-top: 40px;
     background: #E5E5E5;
-    margin-left: 110px;
 }
 .mob-3-line{
     display: none;
@@ -533,6 +542,12 @@
     background: #E5E5E5;
     margin-left: 110px;
 }
+.shm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 .show-more{
     width: 187px;
     height: 49px;
@@ -541,14 +556,9 @@
     box-sizing: border-box;
     border-radius: 6px;
     margin-top: 40px;
-    margin-left: 720px;
-
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #005BB9;
 }
 .main-body-1{
@@ -697,10 +707,10 @@
 }
 
 .news span{
-    width: 1500px;
+    width: 100%;
     height: 9px;
     background: #F5F5F5;
-    margin-left: 100px;
+
 }
 
 .dot-line{
@@ -760,23 +770,23 @@
 .blocks{
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
+    margin-left: 30px;
 }
 
 .blocks-2{
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 .blocks-3{
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 .blocks-4{
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 .news-block{
@@ -795,7 +805,7 @@
 .news-block3{
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .news-block4{
     display: flex;
@@ -805,7 +815,7 @@
 
 .blocks-text{
     margin-top: 30px;
-    margin-left: 120px;
+
 }
 
 .blocks-text-2{
@@ -817,7 +827,7 @@
 }
 
 .blocks-text-4{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .changes_2-1{
@@ -842,6 +852,8 @@
     color: #242424;
     width: 252px;
     margin-top: 10px;
+    margin-left: -15px;
+
 }
 
 .changes_1 li{
@@ -1069,6 +1081,7 @@
 }
 .footer_blocks{
     display: flex;
+    justify-content: space-between;
 }
 .comp{
     margin-top: 20px;
