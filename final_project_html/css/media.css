@@ -279,12 +279,13 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
+    margin-left: -10px;
 }
 
 .mb-button-2{
     min-width: 82px;
     height: 36px;
-    margin-left: 0;
+    margin-left: 10px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -295,7 +296,7 @@
     height: 36px;
     font-size: 14px;
     line-height: 16px;
-    margin-left: 0;
+    margin-left: 10px;
     overflow: hidden;
 }
 
@@ -394,7 +395,6 @@ height: 12px;
 }
 
 .show-more{
-    margin-left: 80px;
     width: 160px;
     height: 34px;
 
@@ -403,6 +403,9 @@ height: 12px;
 }
 .news-block{
     display: flex;
+    flex-direction: column;
+}
+.bb{
     flex-direction: column;
 }
 .news-title{
@@ -419,12 +422,9 @@ height: 12px;
 .news-block1, .news-block2, .news-block3, .news-block4{
     margin-top: 20px;
 }
-.blocks{
-    margin-left: 45px;
-}
+
 .blocks-text{
     margin-top: 10px;
-    margin-left: 20px;
     font-size: 12px;
     line-height: 18px;
     width: 300px;
@@ -436,16 +436,22 @@ height: 12px;
 }
 .changes{
     font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 14px;
 }
-.blocks-2 ,.blocks-3, .blocks-4{
-    margin-left: -50px;
+.blocks-2{
+    margin-left: -70px;
 }
 
+.blocks-3{
+margin-left: -50px;
+}
+.blocks-4{
+        margin-left: -70px;
+}
 .blocks-text-2{
     margin-top: -10px;
-    margin-left: -78px;
+    margin-left: -100px;
 }
 
     .blocks-text-3, .blocks-text-4{
@@ -467,12 +473,12 @@ height: 12px;
     margin-top: -10px;
 }
 .changes-b3{
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 14px;
 }
 .changes-b4 a{
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 14px;
     width: 282px;
 }
 .blocks-text-4 p{
